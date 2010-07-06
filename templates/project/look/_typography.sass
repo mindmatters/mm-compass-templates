@@ -1,0 +1,19 @@
+$font-size: 12px
+$line-height: 18px
+
+=default-font-family
+  font-family: Verdana, sans-serif
+
+// ------------ //
+// Font metrics //
+// ------------ //
+
+=line-height($line-height, $font-size)
+  line-height: $line-height / $font-size
+
+=font-size-and-line-height($font-size, $line-height)
+  font-size: $font-size
+  +line-height($line-height, $font-size)
+
+=font-metrics
+  +font-size-and-line-height($font-size, $line-height)
