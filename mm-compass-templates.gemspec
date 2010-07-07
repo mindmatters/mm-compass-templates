@@ -12,18 +12,19 @@ Gem::Specification.new do |s|
   s.date = %q{2010-07-07}
   s.email = %q{tobias.adam@mindmatters.de}
   s.files = [
-    "Rakefile",
+    ".gitignore",
+     "Rakefile",
      "VERSION",
-     "lib/.gitignore",
-     "mm-compass-templates.gemspec",
-     "stylesheets/_mm-compass-templates.sass",
-     "templates/project/README.md",
-     "templates/project/layout/_grid.sass",
-     "templates/project/layout/_layout_elements.sass",
-     "templates/project/look/_colors.sass",
-     "templates/project/look/_typography.sass",
-     "templates/project/manifest.rb",
-     "templates/project/screen.sass"
+     "lib/mm-compass-templates.rb",
+     "lib/stylesheets/_mm-compass-templates.sass",
+     "lib/templates/project/README.md",
+     "lib/templates/project/layout/_grid.sass",
+     "lib/templates/project/layout/_layout_elements.sass",
+     "lib/templates/project/look/_colors.sass",
+     "lib/templates/project/look/_typography.sass",
+     "lib/templates/project/manifest.rb",
+     "lib/templates/project/screen.sass",
+     "mm-compass-templates.gemspec"
   ]
   s.homepage = %q{http://mindmatters.de}
   s.rdoc_options = ["--charset=UTF-8"]
