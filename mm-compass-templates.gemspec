@@ -9,22 +9,22 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tobias Adam"]
-  s.date = %q{2010-07-07}
+  s.date = %q{2010-07-12}
   s.email = %q{tobias.adam@mindmatters.de}
   s.files = [
     ".gitignore",
      "Rakefile",
      "VERSION",
      "lib/mm-compass-templates.rb",
-     "lib/stylesheets/_mm-compass-templates.sass",
-     "lib/templates/project/README.md",
-     "lib/templates/project/layout/_grid.sass",
-     "lib/templates/project/layout/_layout_elements.sass",
-     "lib/templates/project/look/_colors.sass",
-     "lib/templates/project/look/_typography.sass",
-     "lib/templates/project/manifest.rb",
-     "lib/templates/project/screen.sass",
-     "mm-compass-templates.gemspec"
+     "mm-compass-templates.gemspec",
+     "stylesheets/_mm-compass-templates.sass",
+     "templates/project/README.md",
+     "templates/project/layout/_grid.sass",
+     "templates/project/layout/_layout_elements.sass",
+     "templates/project/look/_colors.sass",
+     "templates/project/look/_typography.sass",
+     "templates/project/manifest.rb",
+     "templates/project/screen.sass"
   ]
   s.homepage = %q{http://mindmatters.de}
   s.rdoc_options = ["--charset=UTF-8"]
