@@ -1,0 +1,10 @@
+// ------------ //
+// Font metrics //
+// ------------ //
+
+=line-height($line-height, $font-size)
+  line-height: $line-height / $font-size
+
+=font-metrics($font-size, $line-height)
+  font-size: $font-size
+  +line-height($line-height, $font-size)

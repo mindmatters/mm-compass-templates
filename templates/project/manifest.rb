@@ -1,7 +1,8 @@
 description "A basic project setup template for stylesheets."
 
 stylesheet "screen.sass", :media => "screen, projection"
-stylesheet "look/_colors.sass"
+stylesheet "look/_colors.lib.sass"
+stylesheet "look/_typography.lib.sass"
 stylesheet "look/_typography.sass"
 stylesheet "layout/_grid.sass"
 stylesheet "layout/_layout_elements.sass"
