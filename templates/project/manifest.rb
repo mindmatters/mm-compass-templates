@@ -1,12 +1,10 @@
-description "A collection of templates and patterns used by mindmatters."
+description "A basic project setup template for stylesheets."
 
 stylesheet "screen.sass", :media => "screen, projection"
 stylesheet "look/_colors.sass"
 stylesheet "look/_typography.sass"
 stylesheet "layout/_grid.sass"
 stylesheet "layout/_layout_elements.sass"
-
-file "README.md"
 
 help %Q{
 Don’t know where this is shown… Edit me if you find me!

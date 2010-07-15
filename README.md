@@ -1,20 +1,24 @@
 A collection of compass templates and patterns used by mindmatters
 ==================================================================
 
+Template list
+-------------
+
+* `project`
+  A basic project setup template for stylesheets.
+
 Installation
 ------------
 
-First install the `mm-compass-templates` gem.
-
-Install the gem and then install the basic project pattern with:
+Install the `mm-compass-templates` gem. To install the template named `project` execute:
 
     compass install mm-compass-templates/project --require mm-compass-templates --syntax sass
 
-Or add a `require 'mm-compass-templates'` to the `config.rb` file in an existing project. Check if framework is available with:
+Or, in an existing project, add a `require 'mm-compass-templates'` to the `config.rb` file. Check if the framework is available with:
 
     compass help
 
-Then install with:
+Then install the `project` template with:
 
     compass install mm-compass-templates/project --syntax sass
 
@@ -30,7 +34,7 @@ available with:
 
     compass frameworks
 
-You can now install the extension with:
+You can now test-install a template (e.g. `project`) with:
 
     compass install mm-compass-templates/project --syntax sass
 
