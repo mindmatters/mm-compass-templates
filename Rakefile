@@ -7,6 +7,7 @@ begin
     gemspec.homepage = "http://mindmatters.de"
     gemspec.authors = ["Tobias Adam"]
     gemspec.files.include %w(stylesheets/**/* templates/**/*)
+    gemspec.files.exclude '.gitignore'
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: gem install jeweler"

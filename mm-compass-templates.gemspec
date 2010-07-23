@@ -5,23 +5,26 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mm-compass-templates}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tobias Adam"]
-  s.date = %q{2010-07-12}
+  s.date = %q{2010-07-23}
   s.email = %q{tobias.adam@mindmatters.de}
+  s.extra_rdoc_files = [
+    "README.md"
+  ]
   s.files = [
-    ".gitignore",
+    "README.md",
      "Rakefile",
      "VERSION",
      "lib/mm-compass-templates.rb",
      "mm-compass-templates.gemspec",
-     "stylesheets/_mm-compass-templates.sass",
-     "templates/project/README.md",
+     "stylesheets/mm/_typography.sass",
      "templates/project/layout/_grid.sass",
      "templates/project/layout/_layout_elements.sass",
-     "templates/project/look/_colors.sass",
+     "templates/project/look/_colors.lib.sass",
+     "templates/project/look/_typography.lib.sass",
      "templates/project/look/_typography.sass",
      "templates/project/manifest.rb",
      "templates/project/screen.sass"
