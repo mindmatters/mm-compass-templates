@@ -8,6 +8,7 @@ begin
     gemspec.authors = ["Tobias Adam"]
     gemspec.files.include %w(stylesheets/**/* templates/**/*)
     gemspec.files.exclude '.gitignore'
+    gemspec.add_dependency("compass", ">=0.10.3.pre.1")
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: gem install jeweler"
